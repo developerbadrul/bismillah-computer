@@ -1,0 +1,16 @@
+#service-item li{
+    font-size: 15px;
+    background-color: black;
+    position: absolute;
+    float: left;
+    z-index: 999;
+    /* list-style: none; */
+    display: none;
+    text-decoration: none;
+    
+}
+
+
+.service:hover #service-item li{
+    display: block;
+}
